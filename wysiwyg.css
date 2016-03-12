@@ -1,0 +1,24 @@
+  img {
+  width: 220px;
+  height: 275px;
+}
+
+.card {
+  width: 300px;
+  margin: 5px;
+  padding: 5px;
+  display: inline-block;
+  float: left;
+}
+
+.card:nth-of-type(even) {
+  background: yellow;
+}
+
+.card:nth-of-type(odd) {
+  background: lightblue;
+}
+
+.selected  {
+  border: dotted;
+}
